@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/home/static/css/main.778eeed7.css",
-    "main.js": "/home/static/js/main.95884bee.js",
+    "main.js": "/home/static/js/main.cd8c4dd9.js",
     "static/js/787.4b24f717.chunk.js": "/home/static/js/787.4b24f717.chunk.js",
     "static/media/weishunzhong.JPG": "/home/static/media/weishunzhong.0f92998cf18db4dff2a9.JPG",
+    "static/media/resume.pdf": "/home/static/media/resume.20ae78e5710c43accddb.pdf",
     "static/media/IBM_logo.svg": "/home/static/media/IBM_logo.4319de081c3786690f790fc7554269f1.svg",
     "index.html": "/home/index.html",
     "main.778eeed7.css.map": "/home/static/css/main.778eeed7.css.map",
-    "main.95884bee.js.map": "/home/static/js/main.95884bee.js.map",
+    "main.cd8c4dd9.js.map": "/home/static/js/main.cd8c4dd9.js.map",
     "787.4b24f717.chunk.js.map": "/home/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.778eeed7.css",
-    "static/js/main.95884bee.js"
+    "static/js/main.cd8c4dd9.js"
   ]
 }
