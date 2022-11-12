@@ -14,7 +14,7 @@ const Skills = React.forwardRef(({ heading, hardSkills, softSkills }, ref) => {
 
   useScrollPosition(
     ({ prevPos, currPos }) => {
-      if (!isScrolled && currPos.y - 400 < 0) setIsScrolled(true);
+      if (!isScrolled && currPos.y - 600 < 0) setIsScrolled(true);
     },
     [],
     skillsTabRef

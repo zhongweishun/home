@@ -18,7 +18,8 @@ const Leadership = ({ heading, message, img, imageSize }) => {
           <b>&emsp; &ensp;WZ</b>, Ben Sorscher, Daniel D Lee, Haim Sompolinsky, <i>NeurIPS 2022 </i><br></br>    
           <b>[3]</b> <a href="https://arxiv.org/abs/2207.02346">Many-body Localized Hidden Born Machine</a>, <br></br>  
           <b>&emsp; &ensp;WZ</b>, Xun Gao, Susanne Yelin, Khadijeh Najafi, <i>arXiv: 2207.02346 </i><br></br>    
-          <b>[4]</b> <a href="https://www.nature.com/articles/s41598-021-88311-7">Quantifying Many-body Learning far from Equilibrium with Representation Learning</a>, <br></br>  
+          <b>[4]</b> <a href="https://www.nature.com/articles/s41598-021-88311-7">Quantifying Many-body Learning far from Equilibrium with </a><br></br>  
+          &emsp; &ensp; <a href="https://www.nature.com/articles/s41598-021-88311-7">Representation Learning</a>, <br></br>  
           <b>&emsp; &ensp;WZ*</b>, Jacob M Gold*, Sarah Marzen, Jeremy L England, Nicole Yunger &emsp; &ensp; Halpern, <i>Scientific reports 11.1 (2021): 1-11</i><br></br>
           <b>[5]</b> <a href="https://arxiv.org/abs/2004.03604">Learning about Learning by Many-body Systems</a>, <br></br>  
           <b>&emsp; &ensp;WZ*</b>, Jacob M Gold*, Sarah Marzen, Jeremy L England, Nicole Yunger &emsp; &ensp; Halpern, <i>ICML workshop (2020)</i><br></br>
