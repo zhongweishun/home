@@ -45,10 +45,10 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
         </div>
         <div className={`col-lg-${showPic ? "7" : "12"}`}>
           <h2 className="display-4 mb-5 text-center">{heading}</h2>
-          <p className="lead text-center">{"My name is Weishun Zhong. I am a Ph.D. student in physics at MIT, supervised by "} 
+          <p className="lead text-left">{"My name is Weishun Zhong. I am a Ph.D. student in physics at MIT, supervised by "} 
           <a href="https://en.wikipedia.org/wiki/Haim_Sompolinsky">Haim Sompolinsky</a> {"(Harvard) and "} 
           <a href="https://en.wikipedia.org/wiki/Mehran_Kardar">Mehran Kardar</a> 
-          {" (MIT). My research area is in statistical physics of disordered systems, with applications toward machine learning, neuroscience, and many-body physics."} </p>
+          {" (MIT). My research area is in the statistical mechanics of disordered systems, with applications toward machine learning, neuroscience, and many-body physics. I aim to understand both natural and artificial intelligence through the lens of statistical physics."} </p>
           
           {resume && (
             <p className="lead text-center">
