@@ -11,26 +11,6 @@ const mainBody = {
   lastName: "Zhong",
   message: " A statistical physicist wandering in the wild.. ",
     icons: [
-      {
-        image: "fa-github",
-        url: "https://github.com/zhongweishun",
-      },
-      {
-        image: "fa-facebook",
-        url: "https://www.facebook.com/weishun.zhong",
-      },
-      {
-        image: "fa-instagram",
-        url: "https://www.instagram.com/wilsonweishun/",
-      },
-      {
-        image: "fa-linkedin",
-        url: "https://www.linkedin.com/in/hashirshoaeb/",
-      },
-      {
-        image: "fa-twitter",
-        url: "https://www.twitter.com/hashirshoaeb/",
-      },
     ],
 };
 
@@ -54,7 +34,7 @@ const about = {
   imageLink: require("../editable-stuff/weishunzhong.JPG"),
   imageSize: 375,
   message:
-    "My name is Weishun Zhong. I’m a Ph.D. student in physics at MIT, supervised by Haim Sompolinsky and Mehran Kardar.",
+    "My name is Weishun Zhong. I am a Ph.D. student in physics at MIT, supervised by Haim Sompolinsky and Mehran Kardar.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -73,20 +53,20 @@ const repos = {
 
 // Leadership SECTION
 const leadership = {
-  show: false,
-  heading: "Leadership",
+  show: true,
+  heading: "Publications",
   message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    "",
   images: [
     { 
-      img: require("../editable-stuff/weishunzhong.JPG"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../assets/img/quenched.png"), 
+      label: "", 
+      paragraph: "My research aims to understand learning as a physical phenomona." 
     },
     { 
-      img: require("../editable-stuff/weishunzhong.JPG"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../assets/img/quantum.png"), 
+      label: "", 
+      paragraph: "My research aims to understand learning as a physical phenomona." 
     },
   ],
   imageSize: {
@@ -99,21 +79,13 @@ const leadership = {
 const skills = {
   show: true,
   heading: "Skills",
-  Programming: [
+  hardSkills: [
     { name: "Python", value: 90 },
     { name: "High Performance Computing", value: 90 },
     { name: "Mathematica", value: 85 },
     { name: "Qiskit", value: 85 },
   ],
-  Soft: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+  softSkills: [
   ],
 };
 
@@ -127,12 +99,32 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
-  heading: "Experiences",
+  show: true,
+  heading: "Education & Experiences",
   data: [
+  {
+    role: 'Ph.D. Department of Physics, Massachusetts Institute of Technology',
+    companylogo: require('../assets/img/MIT_small.png'),
+    date: 'Sep. 2017 – May. 2023',
+  },
+  {
+    role: 'Ph.D. Fellow in Center for Brain Sciences, Harvard University',
+    companylogo: require('../assets/img/Harvard_small.png'),
+    date: 'Sep. 2019 – May. 2023',
+  }, 
+ {
+    role: 'M.S. Physical Sciences Division - Physics, University of Chicago',
+    companylogo: require('../assets/img/chicago_small.png'),
+    date: 'Sep. 2016 – Jun.2017',
+  },
+  {
+    role: 'B.S. Physics and Mathematics, University of Michigan',
+    companylogo: require('../assets/img/michigan_small.png'),
+    date: 'Sep. 2013 – May. 2016',
+  },
     {
-      role: 'IBM Research Intern',// Here Add Company Name
-      companylogo: require('../assets/img/IBM_logo.svg'),
+      role: 'Research Intern, IBM Quantum',
+      companylogo: require('../assets/img/IBM_small.png'),
       date: 'May 2022 – Aug 2022',
     },
   ]
