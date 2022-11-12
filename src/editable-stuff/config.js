@@ -81,9 +81,9 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
-    { name: "High Performance Computing", value: 90 },
-    { name: "Mathematica", value: 85 },
-    { name: "Qiskit", value: 85 },
+    { name: "High Performance Computing", value: 80 },
+    { name: "Mathematica", value: 60 },
+    { name: "Qiskit", value: 70 },
   ],
   softSkills: [
   ],
@@ -107,11 +107,6 @@ const experiences = {
     companylogo: require('../assets/img/MIT_small.png'),
     date: 'Sep. 2017 – May. 2023',
   },
-  {
-    role: 'Ph.D. Fellow in Center for Brain Sciences, Harvard University',
-    companylogo: require('../assets/img/Harvard_small.png'),
-    date: 'Sep. 2019 – May. 2023',
-  }, 
  {
     role: 'M.S. Physical Sciences Division - Physics, University of Chicago',
     companylogo: require('../assets/img/chicago_small.png'),
@@ -122,6 +117,11 @@ const experiences = {
     companylogo: require('../assets/img/michigan_small.png'),
     date: 'Sep. 2013 – May. 2016',
   },
+  {
+    role: 'Ph.D. Fellow in Center for Brain Sciences, Harvard University',
+    companylogo: require('../assets/img/Harvard_small.png'),
+    date: 'Sep. 2019 – May. 2023',
+  }, 
     {
       role: 'Research Intern, IBM Quantum',
       companylogo: require('../assets/img/IBM_small.png'),
