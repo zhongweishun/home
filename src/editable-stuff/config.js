@@ -130,9 +130,32 @@ const experiences = {
   ]
 }
 
+const portfolio = {
+  show: true,
+  heading: "Some of My Personal Work",
+  note: "All of the following has been done in my personal capacity. Work for my current or previous employers is not listed for proprietary reasons",
+   list: [{
+    category: "Mobile App",
+    title: "Power Recruiter",
+    url: "https://play.google.com/store/apps/details?id=com.powerrecruiter.com",
+    notes: "Built on request of a friend. Real time recruiting data",
+    thumbnail:require("../editable-stuff/weishunzhong.JPG"), 
+   },
+   {
+    category: "Machine Learning",
+    title: "Google Deep Dream",
+    videoUrl:"https://youtu.be/SygFid1D1ro",
+    notes: "Had a little fun with Googlenet model and Places365-CNN model",
+    thumbnail:require("../editable-stuff/weishunzhong.JPG"), 
+    repo: "https://github.com/xunxdd/ILML---Google-Deep-Dream",
+   }
+  ]
+
+};
+
 // Blog SECTION
 // const blog = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, portfolio };
