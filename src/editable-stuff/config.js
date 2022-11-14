@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Weishun",
   middleName: "",
   lastName: "Zhong",
-  message: " A statistical physicist wandering in the wild.. ",
+  message: " A statistical physicist wondering what is intelligence.. ",
     icons: [
     ],
 };
@@ -81,9 +81,11 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
+    { name: "Mathematica", value: 90 },
     { name: "High Performance Computing", value: 80 },
-    { name: "Mathematica", value: 60 },
     { name: "Qiskit", value: 70 },
+    { name: "Tensorflow", value: 80 },
+    { name: "Pytorch", value: 70 }
   ],
   softSkills: [
   ],
@@ -132,21 +134,37 @@ const experiences = {
 
 const portfolio = {
   show: true,
-  heading: "Some of My Personal Work",
-  note: "All of the following has been done in my personal capacity. Work for my current or previous employers is not listed for proprietary reasons",
+  heading: "Recent Projects",
+  note: "",
    list: [{
     category: "Mobile App",
-    title: "Power Recruiter",
-    url: "https://play.google.com/store/apps/details?id=com.powerrecruiter.com",
-    notes: "Built on request of a friend. Real time recruiting data",
-    thumbnail:require("../editable-stuff/weishunzhong.JPG"), 
+    title: "Quantum neural network for quantum error correction",
+    // url: "https://play.google.com/store/apps/details?id=com.powerrecruiter.com",
+    notes: "We found that stabilizer codes are vulnerable to errors occured in the code-preparation process, and quantum neural networks provide an decoding advantage over the standard procedure. ",
+    thumbnail:require("../editable-stuff/QNN.png"), 
+   },
+   {
+    category: "Mobile App",
+    title: "Weight-distribution constrained feedforward neural networks",
+    url: "https://arxiv.org/abs/2206.08933",
+    notes: "We proposed a theory and an accompanying algorithm for weight-distribution constrained feedforward neural networks. ",
+    thumbnail:require("../editable-stuff/disco.png"), 
+   },
+   
+   {
+    category: "Machine Learning",
+    title: "Many-body localized hidden Born machine",
+    videoUrl:"https://arxiv.org/abs/2207.02346",
+    notes: "We proposed a hidden quantum generative model that uses MBL dynamics. We showed that our model has expressibility and learnability advantage over classical models and other Born machines.",
+    thumbnail:require("../editable-stuff/MBL.png"), 
+    repo: "https://github.com/xunxdd/ILML---Google-Deep-Dream",
    },
    {
     category: "Machine Learning",
-    title: "Google Deep Dream",
-    videoUrl:"https://youtu.be/SygFid1D1ro",
-    notes: "Had a little fun with Googlenet model and Places365-CNN model",
-    thumbnail:require("../editable-stuff/weishunzhong.JPG"), 
+    title: "Learning by out-of-equilibrium many-body systems",
+    videoUrl:"https://arxiv.org/abs/2001.03623",
+    notes: "We use representation learning to study intelligent behaviors exhibited by out-of-equilibrium many-body systems. ",
+    thumbnail:require("../editable-stuff/spin_glass.png"), 
     repo: "https://github.com/xunxdd/ILML---Google-Deep-Dream",
    }
   ]

@@ -48,7 +48,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
           <p className="lead text-left">{"My name is Weishun Zhong. I am a Ph.D. student in physics at MIT, supervised by "} 
           <a href="https://en.wikipedia.org/wiki/Haim_Sompolinsky">Haim Sompolinsky</a> {"(Harvard) and "} 
           <a href="https://en.wikipedia.org/wiki/Mehran_Kardar">Mehran Kardar</a> 
-          {" (MIT). My research area is in the statistical mechanics of disordered systems, with applications toward machine learning, neuroscience, and many-body physics. I aim to understand both natural and artificial intelligence through the lens of statistical physics."} </p>
+          {" (MIT). My research area is in statistical mechanics of disordered systems, with applications toward machine learning, neuroscience, and many-body physics. I aim to understand both natural and artificial intelligence through the lens of statistical physics."} </p>
           
           {resume && (
             <p className="lead text-center">
