@@ -19,9 +19,9 @@ const Portfolio = ({ heading, list,note, quote }) => {
             {/* <div className="px-3 mb-1" >
                 <Quote quote={quote} />
              </div> */}
-            <PortfolioCategory products = {mobileApps} title="Mobile Apps" imgHeight="250" />
+            <PortfolioCategory products = {mobileApps} title="" imgHeight="260" />
             {/* <PortfolioCategory products = {alexaSkills} title="Alexa Skills" imgHeight="200" /> */}
-            <PortfolioCategory products = {machineLearning} title="Machine Learning Demo Projects" imgHeight="150" />
+            <PortfolioCategory products = {machineLearning} title="" imgHeight="260" />
         </Container>
         </Jumbotron>);
 };

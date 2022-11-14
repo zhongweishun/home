@@ -13,7 +13,7 @@ const PortfolioCard = ({ value, imgHeight }) => {
   } = value;
 
   return (
-    <Col md={4}>
+    <Col md={6}>
       <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
         <Card.Body>
           <Card.Title as="h5">{title } </Card.Title>
