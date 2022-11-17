@@ -27,12 +27,13 @@ const Leadership = ({ heading, message, img, imageSize }) => {
           <b>&emsp; &ensp;WZ</b>, Zhiyue Lu, David J. Schwab, and Arvind Murugan, <i>Neural <br></br>
           &emsp; &ensp; computation (2020) 32 (6) </i><br></br>    
           <b>[7]</b> <a href="https://arxiv.org/abs/1912.05127">A Closer Look at Disentangling in beta-VAE</a>, <br></br>  
-          &emsp; &ensp; Harshvardhan Sikka*, <b>WZ*</b>, Jun Yin, Cengiz Pehlevan, <i>53rd Asilomar <br></br> 
+          &emsp; &ensp; Harshvardhan Sikka*, <b>WZ*</b> (alphabetical order), Jun Yin, <br></br>  
+          &emsp; &ensp; Cengiz Pehlevan, <i>53rd Asilomar <br></br> 
           &emsp; &ensp; Conference on Signals, Systems, and Computers (2019) </i><br></br>   
           <b>[8]</b> <a href="https://arxiv.org/abs/1701.01769">Associative Pattern Recognition in Macro-Molecular Self-Assembly</a>, <br></br>  
           <b>&emsp; &ensp;WZ</b>, David J. Schwab, and Arvind Murugan, <i>J Stat Phys (2017) 167: 806 </i><br></br>      
           <b>[9]</b> <a href="https://link.springer.com/article/10.1007/JHEP12(2015)179">A Holographic c-Theorem for Schrodinger Spacetimes</a>, <br></br>  
-          &emsp; &ensp; James T. Liu and <b>WZ</b>, <i>JHEP 1512 (2015) 179 </i><br></br>        
+          &emsp; &ensp; James T. Liu and <b>WZ</b> (alphabetical order), <i>JHEP 1512 (2015) 179 </i><br></br>        
           </p>
         </div>
         <div className="col-md-7">

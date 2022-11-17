@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Weishun",
   middleName: "",
   lastName: "Zhong",
-  message: " A statistical physicist wondering what is intelligence.. ",
+  message: " A statistical physicist wondering about intelligence.. ",
     icons: [
     ],
 };
@@ -61,12 +61,12 @@ const leadership = {
     { 
       img: require("../assets/img/quenched.png"), 
       label: "", 
-      paragraph: "My research aims to understand learning as a physical phenomona." 
+      paragraph: "" 
     },
     { 
       img: require("../assets/img/quantum.png"), 
       label: "", 
-      paragraph: "My research aims to understand learning as a physical phenomona." 
+      paragraph: "" 
     },
   ],
   imageSize: {
@@ -83,9 +83,9 @@ const skills = {
     { name: "Python", value: 90 },
     { name: "Mathematica", value: 90 },
     { name: "High Performance Computing", value: 80 },
-    { name: "Qiskit", value: 70 },
     { name: "Tensorflow", value: 80 },
-    { name: "Pytorch", value: 70 }
+    { name: "Pytorch", value: 70 },
+    { name: "Qiskit", value: 70 },
   ],
   softSkills: [
   ],
@@ -140,32 +140,42 @@ const portfolio = {
     category: "Mobile App",
     title: "Quantum neural network for quantum error correction",
     // url: "https://play.google.com/store/apps/details?id=com.powerrecruiter.com",
-    notes: "We found that stabilizer codes are vulnerable to errors occured in the code-preparation process, and quantum neural networks provide an decoding advantage over the standard procedure. ",
+    notes: "We developed a theoretical framework for decoding imperfect stabilizer codes. \
+            We proved that the standard decoding procedure’s error-scaling is independent of the underlying code distance—suggesting that stabilizer codes, \
+            although robust to errors in physical qubits, are vulnerable to errors in the code-preparation process. \
+            We further proved that QNNs can achieve decoding errors that are exponentially small in code distance, outperforming the distance-independent scaling law in the standard decoding procedure. \
+            Our work suggests a practical advantage of using quantum machine learning for decoding realistic codes in near-term devices. ",
     thumbnail:require("../editable-stuff/QNN.png"), 
    },
    {
     category: "Mobile App",
     title: "Weight-distribution constrained feedforward neural networks",
     url: "https://arxiv.org/abs/2206.08933",
-    notes: "We proposed a theory and an accompanying algorithm for weight-distribution constrained feedforward neural networks. ",
+    notes: "We constructed a statistical mechanical theory that quantified the effect of imposing arbitrary network weight-distribution constraints. \
+            Our theory predicted that the network capacity was proportional to the geodesic distance between the imposed and the original distribution on the Wasserstein statistical manifold, \
+            and further predicted optimal prior distributions for achieving the best generalization performance. Our theory and the accompanying algorithm provided a geometric approach to study learning under constraints. ",
     thumbnail:require("../editable-stuff/disco.png"), 
    },
    
    {
     category: "Machine Learning",
     title: "Many-body localized hidden Born machine",
-    videoUrl:"https://arxiv.org/abs/2207.02346",
-    notes: "We proposed a hidden quantum generative model that uses MBL dynamics. We showed that our model has expressibility and learnability advantage over classical models and other Born machines.",
+    url:"https://arxiv.org/abs/2207.02346",
+    notes: "We proposed a class of quantum generative models that we have named “MBL hidden Born machines”. We proved that the trainability of basic Born machines could be tremendously improved by including hidden units, \
+            and that the MBL Born machine possessed more expressive power than classical models. Our work revealed relationships between learning and physical dynamics that could serve as guiding principles for designing quantum generative models. ",
     thumbnail:require("../editable-stuff/MBL.png"), 
-    repo: "https://github.com/xunxdd/ILML---Google-Deep-Dream",
+    // repo: "https://github.com/xunxdd/ILML---Google-Deep-Dream",
    },
    {
     category: "Machine Learning",
     title: "Learning by out-of-equilibrium many-body systems",
-    videoUrl:"https://arxiv.org/abs/2001.03623",
-    notes: "We use representation learning to study intelligent behaviors exhibited by out-of-equilibrium many-body systems. ",
+    url:"https://arxiv.org/abs/2001.03623",
+    notes: "We demonstrated that driven spin-glasses could perform a wide range of learning tasks that were usually only seen in digital systems, such as classification, memory, and novelty detection. \
+            We further demonstrated that traditional thermodynamic variables were no longer effective in characterizing these novel many-body learning phenomena, \
+            and that machine learning could make better predictions by using macroscopic variables constructed from nonlinear combination of traditional ones.",
     thumbnail:require("../editable-stuff/spin_glass.png"), 
-    repo: "https://github.com/xunxdd/ILML---Google-Deep-Dream",
+    repo: "https://github.com/smarzen/Statistical-Physics", 
+    // videoUrl:""
    }
   ]
 
