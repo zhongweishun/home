@@ -45,7 +45,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
         </div>
         <div className={`col-lg-${showPic ? "7" : "12"}`}>
           <h2 className="display-4 mb-5 text-center">{heading}</h2>
-          <p className="lead text-left">{"My name is Weishun Zhong and I am a Ph.D. student in physics at MIT. I am fortunate to be supervised by "} 
+          <p className="lead text-left">{"Hi! I am a Ph.D. student in physics at MIT. I am fortunate to be supervised by "} 
           <a href="https://en.wikipedia.org/wiki/Haim_Sompolinsky">Haim Sompolinsky</a> {"(Harvard) and "} 
           <a href="https://en.wikipedia.org/wiki/Mehran_Kardar">Mehran Kardar</a> 
           {" (MIT). My research area is in statistical mechanics of disordered systems, with applications toward machine learning, neuroscience, and many-body physics. I aim to understand both natural and artificial intelligence through the lens of statistical physics."} <p></p>
@@ -53,7 +53,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
           <a href="https://quics.umd.edu/people/nicole-yunger-halpern">Nicole Yunger Halpern</a>
           {", "} <a href="https://en.wikipedia.org/wiki/Jeremy_England">Jeremy England</a>{", and "} <a href="https://pehlevan.seas.harvard.edu/people/cengiz-pehlevan">Cengiz Pehlevan</a>{"."}  <p></p>
           {"Prior to MIT, I spent a year at University of Chicago as a masters student, where I embarked on my stat-mech voyage with "}<a href="http://muruganlab.uchicago.edu/">Arvind Murugan</a>{" and "}<a href="https://scholar.google.com/citations?user=xRtvC50AAAAJ&hl=en">David Schwab</a>{"."} <p></p>
-          {"Before my journey in statistical physics, I was an undergraduate student at University of Michigan-Ann Arbor working in high energy theory with "}<a href="https://scholar.google.com/citations?user=h31FiQgAAAAJ&hl=en">James Liu</a>{"."}
+          {"Before my journey in statistical physics, I started as an undergraduate student at University of Michigan-Ann Arbor studying high energy theory with "}<a href="https://scholar.google.com/citations?user=h31FiQgAAAAJ&hl=en">James Liu</a>{"."}
           </p>
           
           {resume && (
