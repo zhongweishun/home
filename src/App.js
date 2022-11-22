@@ -1,4 +1,5 @@
 import React from "react";
+import ReactGA from "react-ga";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import {
   navBar,
@@ -24,6 +25,8 @@ import Leadership from "./components/home/Leadership.jsx";
 import Portfolio from "./components/home/Portfolio";
 
 import Experience from "./components/home/Experience";
+
+ReactGA.initialize('G-S50YK9HPFH');
 
 const Home = React.forwardRef((props, ref) => {
   return (
