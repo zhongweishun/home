@@ -151,6 +151,7 @@ const portfolio = {
     category: "Mobile App",
     title: "Weight-distribution constrained feedforward neural networks",
     url: "https://arxiv.org/abs/2206.08933",
+    present:require("../editable-stuff/Disco_2022_neurips.png"),
     notes: "We constructed a statistical mechanical theory that quantified the effect of imposing arbitrary network weight-distribution constraints. \
             Our theory predicted that the network capacity was proportional to the geodesic distance between the imposed and the original distribution on the Wasserstein statistical manifold, \
             and further predicted optimal prior distributions for achieving the best generalization performance. Our theory and the accompanying algorithm provided a geometric approach to study learning under constraints. ",
@@ -161,6 +162,7 @@ const portfolio = {
     category: "Machine Learning",
     title: "Many-body localized hidden Born machine",
     url:"https://arxiv.org/abs/2207.02346",
+    present:require("../editable-stuff/MBL_Born_poster.pdf"),
     notes: "We proposed a class of quantum generative models that we have named “MBL hidden Born machines”. We proved that the trainability of basic Born machines could be tremendously improved by including hidden units, \
             and that the MBL Born machine possessed more expressive power than classical models. Our work revealed relationships between learning and physical dynamics that could serve as guiding principles for designing quantum generative models. ",
     thumbnail:require("../editable-stuff/MBL.png"), 
