@@ -10,6 +10,7 @@ const PortfolioCard = ({ value, imgHeight }) => {
     videoUrl,
     thumbnail, 
     repo,
+    present,
   } = value;
 
   return (
@@ -20,14 +21,14 @@ const PortfolioCard = ({ value, imgHeight }) => {
           <img className="card-img-top" height={imgHeight} src={thumbnail} alt={title}></img>
           <hr></hr>
           <Card.Text>{notes}</Card.Text>
-          <CardButtons video_url={videoUrl} link={url} repo={repo} />
+          <CardButtons video_url={videoUrl} link={url} repo={repo} present={present} />
         </Card.Body>
       </Card>
     </Col>
   );
 };
 
-const CardButtons = ({ video_url, link, repo }) => {
+const CardButtons = ({ video_url, link, repo, present }) => {
   return (
     <>
       {video_url &&
@@ -37,6 +38,15 @@ const CardButtons = ({ video_url, link, repo }) => {
             className="btn btn-outline-secondary mr-3"
         >
             <i className="fab fa-youtube" /> 
+          </a>
+      }
+      {present &&
+        <a
+            href={present}
+            target=" _blank"
+            className="btn btn-outline-secondary mr-3"
+        >
+            <i className="fab fa-instagram" /> 
           </a>
       }
       {link &&
