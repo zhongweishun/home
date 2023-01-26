@@ -63,11 +63,11 @@ const leadership = {
       label: "", 
       paragraph: "" 
     },
-    { 
-      img: require("../assets/img/quantum.png"), 
-      label: "", 
-      paragraph: "" 
-    },
+    // { 
+    //   img: require("../assets/img/quantum.png"), 
+    //   label: "", 
+    //   paragraph: "" 
+    // },
   ],
   imageSize: {
     width:"615",
@@ -136,19 +136,20 @@ const portfolio = {
   show: true,
   heading: "Recent Projects",
   note: "",
-   list: [{
-    category: "Mobile App",
-    title: "Quantum neural network for quantum error correction",
-    // url: "https://play.google.com/store/apps/details?id=com.powerrecruiter.com",
-    notes: "We developed a theoretical framework for decoding imperfect stabilizer codes. \
-            We proved that the standard decoding procedure’s error-scaling is independent of the underlying code distance—suggesting that stabilizer codes, \
-            although robust to errors in physical qubits, are vulnerable to errors in the code-preparation process. \
-            We further proved that QNNs can achieve decoding errors that are exponentially small in code distance, outperforming the distance-independent scaling law in the standard decoding procedure. \
-            Our work suggests a practical advantage of using quantum machine learning for decoding realistic codes in near-term devices. ",
-    thumbnail:require("../editable-stuff/QNN.png"), 
-   },
+   list: [
+  //   {
+  //   category: "Mobile App",
+  //   title: "Quantum neural network for quantum error correction",
+  //   // url: "https://play.google.com/store/apps/details?id=com.powerrecruiter.com",
+  //   notes: "We developed a theoretical framework for decoding imperfect stabilizer codes. \
+  //           We proved that the standard decoding procedure’s error-scaling is independent of the underlying code distance—suggesting that stabilizer codes, \
+  //           although robust to errors in physical qubits, are vulnerable to errors in the code-preparation process. \
+  //           We further proved that QNNs can achieve decoding errors that are exponentially small in code distance, outperforming the distance-independent scaling law in the standard decoding procedure. \
+  //           Our work suggests a practical advantage of using quantum machine learning for decoding realistic codes in near-term devices. ",
+  //   thumbnail:require("../editable-stuff/QNN.png"), 
+  //  },
    {
-    category: "Mobile App",
+    category: "Machine Learning",
     title: "Weight-distribution constrained feedforward neural networks",
     url: "https://arxiv.org/abs/2206.08933",
     present:require("../editable-stuff/Disco_2022_neurips.png"),
