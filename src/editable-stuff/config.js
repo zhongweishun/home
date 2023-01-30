@@ -108,16 +108,19 @@ const experiences = {
     role: 'Ph.D. Department of Physics, Massachusetts Institute of Technology',
     companylogo: require('../assets/img/MIT_small.png'),
     date: 'Sep. 2017 – May. 2023',
+    // thesis: 'Thesis: Non-equilibrium physics: from spin glasses to machine and neural learning'
   },
  {
     role: 'M.S. Physical Sciences Division - Physics, University of Chicago',
     companylogo: require('../assets/img/chicago_small.png'),
     date: 'Sep. 2016 – Jun.2017',
+    // thesis: 'Thesis: Associative pattern recognition through macro-molecular self-assembly'
   },
   {
     role: 'B.S. Physics and Mathematics, University of Michigan',
     companylogo: require('../assets/img/michigan_small.png'),
     date: 'Sep. 2013 – May. 2016',
+    // thesis: 'Thesis: A Holographic c-Theorem for Schrödinger Spacetimes'
   },
   {
     role: 'Ph.D. Fellow in Center for Brain Sciences, Harvard University',
