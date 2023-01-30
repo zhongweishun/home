@@ -52,7 +52,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
           {"During my time at MIT, I also enjoyed collaborations with and guidances from many great people, including "} <a href="https://en.wikipedia.org/wiki/Susanne_Yelin">Susanne Yelin</a>{", "}<a href="https://ramismovassagh.wordpress.com/">Ramis Movassagh</a>{", "} 
           <a href="https://quics.umd.edu/people/nicole-yunger-halpern">Nicole Yunger Halpern</a>
           {", "} <a href="https://en.wikipedia.org/wiki/Jeremy_England">Jeremy England</a>{", and "} <a href="https://pehlevan.seas.harvard.edu/people/cengiz-pehlevan">Cengiz Pehlevan</a>{"."}  <p></p>
-          {"Prior to MIT, I spent a year at University of Chicago as a masters student, where I embarked on my stat-mech voyage with "}<a href="http://muruganlab.uchicago.edu/">Arvind Murugan</a>{" and "}<a href="https://scholar.google.com/citations?user=xRtvC50AAAAJ&hl=en">David Schwab</a>{"."} <p></p>
+          {"Prior to MIT, I spent a year at University of Chicago as a masters student, where I embarked on my stat-mech voyage with "}<a href="http://muruganlab.uchicago.edu/">Arvind Murugan</a>{" and David Schwab."} <p></p>
           {"Before my journey in statistical physics, I started as an undergraduate student at University of Michigan-Ann Arbor studying high energy theory with "}<a href="https://scholar.google.com/citations?user=h31FiQgAAAAJ&hl=en">James Liu</a>{"."}
           </p>
           

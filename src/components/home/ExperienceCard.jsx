@@ -13,6 +13,8 @@ const ExperienceCard = ({ data }) => {
           {data.role}
           <br />
           {data.date}
+          <br />
+          {data.thesis}
         </p>
 
       </div>
