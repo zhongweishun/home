@@ -96,7 +96,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for postdoctoral positions! If you know of any positions available, or if you just want to say hi, please feel free to email me at",
+    "If you want to chat about science, or do some rock-climbing together, please feel free to email me at",
   email: "wszhong AT mit DOT edu",
 };
 
