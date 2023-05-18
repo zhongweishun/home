@@ -152,7 +152,7 @@ const portfolio = {
   //   thumbnail:require("../editable-stuff/QNN.png"), 
   //  },
    {
-    category: "Machine Learning",
+    category: "Mobile App",
     title: "Weight-distribution constrained feedforward neural networks",
     url: "https://arxiv.org/abs/2206.08933",
     present:require("../editable-stuff/Disco_2022_neurips.png"),
@@ -163,8 +163,8 @@ const portfolio = {
    },
    
    {
-    category: "Machine Learning",
-    title: "Many-body localized hidden Born machine",
+    category: "Mobile App", //"Machine Learning",
+    title: "Generative modeling by disordered quantum systems",
     url:"https://arxiv.org/abs/2207.02346",
     present:require("../editable-stuff/MBL_Born_poster.pdf"),
     notes: "We proposed a class of quantum generative models that we have named “MBL hidden Born machines”. We proved that the trainability of basic Born machines could be tremendously improved by including hidden units, \
@@ -173,10 +173,10 @@ const portfolio = {
     // repo: "https://github.com/xunxdd/ILML---Google-Deep-Dream",
    },
    {
-    category: "Machine Learning",
-    title: "Learning by out-of-equilibrium many-body systems",
+    category: "Machine Learning", 
+    title: "Discriminative learning by out-of-equilibrium many-body systems",
     url:"https://arxiv.org/abs/2001.03623",
-    notes: "We demonstrated that driven spin-glasses could perform a wide range of learning tasks that were usually only seen in digital systems, such as classification, memory, and novelty detection. \
+    notes: "We demonstrated that driven spin-glasses could perform a wide range of discriminative learning tasks that were usually only seen in digital systems, such as classification, memory, and novelty detection. \
             We further demonstrated that traditional thermodynamic variables were no longer effective in characterizing these novel many-body learning phenomena, \
             and that machine learning could make better predictions by using macroscopic variables constructed from nonlinear combination of traditional ones.",
     thumbnail:require("../editable-stuff/spin_glass.png"), 
