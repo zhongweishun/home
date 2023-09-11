@@ -97,7 +97,7 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "If you want to chat about science, or do some rock-climbing together, please feel free to email me at",
-  email: "wszhong AT mit DOT edu",
+  email: "wszhong AT ias DOT edu",
 };
 
 const experiences = {
