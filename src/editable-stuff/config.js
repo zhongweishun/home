@@ -102,36 +102,41 @@ const getInTouch = {
 
 const experiences = {
   show: true,
-  heading: "Education & Experiences",
+  heading: "Employment & Education",
   data: [
+    {
+      role: 'Member, School of Natural Sciences, <br /> Institute for Advanced Study',
+      companylogo: require('../assets/img/IAS_small.png'),
+      date: 'Sep. 2023 – ',
+    }, 
   {
-    role: 'Ph.D. Department of Physics, Massachusetts Institute of Technology',
+    role: 'Ph.D. Fellow, Center for Brain Sciences, <br /> Harvard University',
+    companylogo: require('../assets/img/Harvard_small.png'),
+    date: 'Sep. 2019 – May. 2023',
+  }, 
+    {
+      role: 'Research Intern, IBM Quantum, <br /> IBM',
+      companylogo: require('../assets/img/IBM_small.png'),
+      date: 'May 2022 – Aug 2022',
+    },
+  {
+    role: 'Ph.D. Department of Physics (<a href="https://arxiv.org/abs/2308.01538">thesis</a>), <br />  Massachusetts Institute of Technology',
     companylogo: require('../assets/img/MIT_small.png'),
     date: 'Sep. 2017 – May. 2023',
     // thesis: 'Thesis: Non-equilibrium physics: from spin glasses to machine and neural learning'
   },
  {
-    role: 'M.S. Physical Sciences Division - Physics, University of Chicago',
+    role: 'M.S. Physical Sciences Division - Physics, <br /> University of Chicago',
     companylogo: require('../assets/img/chicago_small.png'),
     date: 'Sep. 2016 – Jun.2017',
     // thesis: 'Thesis: Associative pattern recognition through macro-molecular self-assembly'
   },
   {
-    role: 'B.S. Physics and Mathematics, University of Michigan',
+    role: 'B.S. Physics and Mathematics, <br /> University of Michigan',
     companylogo: require('../assets/img/michigan_small.png'),
     date: 'Sep. 2013 – May. 2016',
     // thesis: 'Thesis: A Holographic c-Theorem for Schrödinger Spacetimes'
   },
-  {
-    role: 'Ph.D. Fellow in Center for Brain Sciences, Harvard University',
-    companylogo: require('../assets/img/Harvard_small.png'),
-    date: 'Sep. 2019 – May. 2023',
-  }, 
-    {
-      role: 'Research Intern, IBM Quantum',
-      companylogo: require('../assets/img/IBM_small.png'),
-      date: 'May 2022 – Aug 2022',
-    },
   ]
 }
 
