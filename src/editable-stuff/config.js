@@ -171,7 +171,7 @@ const portfolio = {
     category: "Mobile App", //"Machine Learning",
     title: "Generative modeling by disordered quantum systems",
     url:"https://arxiv.org/abs/2207.02346",
-    present:require("../editable-stuff/MBL_Born_poster.pdf"),
+    present:require("../editable-stuff/MBL_Born_poster.png"),
     notes: "We proposed a class of quantum generative models that we have named “MBL hidden Born machines”. We proved that the trainability of basic Born machines could be tremendously improved by including hidden units, \
             and that the MBL Born machine possessed more expressive power than classical models. Our work revealed relationships between learning and physical dynamics that could serve as guiding principles for designing quantum generative models. ",
     thumbnail:require("../editable-stuff/MBL.png"), 
