@@ -34,7 +34,7 @@ const about = {
   imageLink: require("../editable-stuff/weishunzhong.JPG"),
   imageSize: 375,
   message:
-    "My name is Weishun Zhong. I am a Ph.D. student in physics at MIT, supervised by Haim Sompolinsky and Mehran Kardar.",
+    "",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -120,7 +120,7 @@ const experiences = {
       date: 'May 2022 – Aug 2022',
     },
   {
-    role: 'Ph.D. Department of Physics (<a href="https://arxiv.org/abs/2308.01538">thesis</a>) <br />  Massachusetts Institute of Technology',
+    role: 'Ph.D. Department of Physics (<a href="https://arxiv.org/abs/2308.01538" target="_blank">thesis</a>) <br />  Massachusetts Institute of Technology',
     companylogo: require('../assets/img/MIT_small.png'),
     date: 'Sep. 2017 – Jun. 2023',
     // thesis: 'Thesis: Non-equilibrium physics: from spin glasses to machine and neural learning'

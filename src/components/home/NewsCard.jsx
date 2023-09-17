@@ -58,7 +58,7 @@ const NewsCard = ({ value }) => {
         </Card.Body>
       </Card>
       
-      <Modal show={showModal} onHide={handleClose} centered size="lg">
+      <Modal show={showModal} onHide={handleClose} centered>
         {modalContent === "image" && present && 
           <Modal.Body>
             <img src={process.env.PUBLIC_URL + present} alt="Presentation" width="100%" />
