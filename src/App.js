@@ -62,20 +62,24 @@ const Home = React.forwardRef((props, ref) => {
         />
       )}
       {leadership.show && (
+        <div id="publication">
         <Leadership
           heading={leadership.heading}
           message={leadership.message}
           img={leadership.images}
           imageSize={leadership.imageSize}
         />
+        </div>        
       )}
       {portfolio.show && (
-        <Portfolio
-          quote ={portfolio.quote}
-          note ={portfolio.note}
-          heading={portfolio.heading}
-          list={portfolio.list}
-        />
+        <div id="portfolio">
+          <Portfolio
+            quote ={portfolio.quote}
+            note ={portfolio.note}
+            heading={portfolio.heading}
+            list={portfolio.list}
+          />
+        </div>
       )}
       {skills.show && (
         <Skills
