@@ -56,7 +56,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
           {", "} <a href="https://en.wikipedia.org/wiki/Jeremy_England" target="_blank">Jeremy England</a>{", and "} <a href="https://pehlevan.seas.harvard.edu/people/cengiz-pehlevan" target="_blank">Cengiz Pehlevan</a>{"."}  <p></p>
           {"Prior to MIT, I spent a year at University of Chicago as a masters student, where I embarked on my stat-mech voyage with "}<a href="http://muruganlab.uchicago.edu/" target="_blank">Arvind Murugan</a>{" and "}
           <a href="https://scholar.google.com/citations?user=UreckXYAAAAJ&hl=en" target="_blank">David Schwab</a>{"."} <p></p>
-          {"Before my journey in statistical physics, I started as an undergraduate student at University of Michigan-Ann Arbor studying high energy theory with "}<a href="https://scholar.google.com/citations?user=h31FiQgAAAAJ&hl=en" target="_blank">James Liu</a>{"."}
+          {"Before my journey in statistical physics, I started as an undergraduate student at University of Michigan-Ann Arbor studying high energy physics with "}<a href="https://lsa.umich.edu/physics/people/faculty/jimliu.html" target="_blank">James Liu</a>{"."}
           </p>
           
           {resume && (
