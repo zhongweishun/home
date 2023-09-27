@@ -17,7 +17,7 @@ const newsArray = [
     description: "I just started my postdoc at the IAS, and most honored to be featured in IAS social media!",
     link: "https://www.ias.edu/ideas/qa-weishun-zhong",
     tweet: "https://twitter.com/the_IAS/status/1706685697044676633",
-    date: "2023-09-01"
+    date: "2023-09-27"
   }, 
   {
     title: "Thesis",
