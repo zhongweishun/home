@@ -14,7 +14,7 @@ const dummyNews = {
 const newsArray = [
   {
     title: "New Journey",
-    description: "I just started my postdoc at the IAS, and honored to be featured in IAS social media!",
+    description: "I just started my postdoc at the IAS, and am excited to be featured in IAS social media!",
     link: "https://www.ias.edu/ideas/qa-weishun-zhong",
     tweet: "https://twitter.com/the_IAS/status/1706685697044676633",
     date: "2023-09-27"
