@@ -145,17 +145,16 @@ const portfolio = {
   heading: "Recent Projects",
   note: "",
    list: [
-  //   {
-  //   category: "Mobile App",
-  //   title: "Quantum neural network for quantum error correction",
-  //   // url: "https://play.google.com/store/apps/details?id=com.powerrecruiter.com",
-  //   notes: "We developed a theoretical framework for decoding imperfect stabilizer codes. \
-  //           We proved that the standard decoding procedure’s error-scaling is independent of the underlying code distance—suggesting that stabilizer codes, \
-  //           although robust to errors in physical qubits, are vulnerable to errors in the code-preparation process. \
-  //           We further proved that QNNs can achieve decoding errors that are exponentially small in code distance, outperforming the distance-independent scaling law in the standard decoding procedure. \
-  //           Our work suggests a practical advantage of using quantum machine learning for decoding realistic codes in near-term devices. ",
-  //   thumbnail:require("../editable-stuff/QNN.png"), 
-  //  },
+    {
+    category: "Mobile App",
+    title: "Quantum neural network for quantum error correction",
+    url: "https://arxiv.org/abs/2401.06300",
+    notes: "Quantum neural networks (QNNs) are inspired by their classical counterparts, but beyond heuristic considerations, the usefulness of such a concept \
+            has yet to be rigorously demonstrated. We show that in the case of decoding quantum information from quantum error-correcting codes, \
+            QNNs can provide an almost quadratic improvement in readout error over traditional stabilizer-based quantum error correction, \
+            thus establishing a clear scenario where quantum AI methods such as QNNs are proven to provide an advantage over conventional non-AI approachs.",
+    thumbnail:require("../editable-stuff/QNN.png"), 
+   },
    {
     category: "Mobile App",
     title: "Weight-distribution constrained feedforward neural networks",
@@ -168,7 +167,7 @@ const portfolio = {
    },
    
    {
-    category: "Mobile App", //"Machine Learning",
+    category: "Machine Learning",
     title: "Generative modeling by disordered quantum systems",
     url:"https://arxiv.org/abs/2207.02346",
     present:require("../editable-stuff/MBL_Born_poster.png"),
