@@ -147,7 +147,7 @@ const portfolio = {
    list: [
     {
     category: "Mobile App",
-    title: "Quantum neural network for quantum error correction",
+    title: "Quantum neural networks for quantum error correction",
     url: "https://arxiv.org/abs/2401.06300",
     notes: "Quantum neural networks (QNNs) are inspired by their classical counterparts, but beyond heuristic considerations, the usefulness of such a concept \
             has yet to be rigorously demonstrated. We show that in the case of decoding quantum information from quantum error-correcting codes, \
