@@ -152,7 +152,7 @@ const portfolio = {
     notes: "Quantum neural networks (QNNs) are inspired by their classical counterparts, but beyond heuristic considerations, the usefulness of such a concept \
             has yet to be rigorously demonstrated. We show that in the case of decoding quantum information from quantum error-correcting codes, \
             QNNs can provide an almost quadratic improvement in readout error over traditional stabilizer-based quantum error correction, \
-            thus establishing a clear scenario where quantum AI methods such as QNNs are proven to provide an advantage over conventional non-AI approachs.",
+            thus establishing a clear scenario where quantum AI methods such as QNNs are proven to provide an advantage over conventional non-AI methods.",
     thumbnail:require("../editable-stuff/QNN.png"), 
    },
    {
