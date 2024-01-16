@@ -16,7 +16,7 @@ const newsArray = [
     title: "New preprint",
     description: "Check out my new preprint on quantum neural networks!",
     link: "https://arxiv.org/abs/2401.06300",
-    // tweet: "https://twitter.com/the_IAS/status/1706685697044676633",
+    tweet: "https://twitter.com/WeishunZhong/status/1746974293500551486",
     date: "2024-01-14"
   }, 
   {
