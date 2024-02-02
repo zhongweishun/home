@@ -5,7 +5,7 @@ const blog = new BlogBuilder({
   title: "My First Blog",
   image: "img",
   description:
-    "Description Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, dolores? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia provident similique corporis rem ullam odio excepturi voluptas harum, architecto sit!",
+    "Description Lorem ipsum dolor, amet consectetur adipisicing elit. Voluptatem, dolores? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia provident similique corporis rem ullam odio excepturi voluptas harum, architecto sit!",
 })
   .addHeading("Heading")
   .addParagraph(
