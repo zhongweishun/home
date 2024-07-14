@@ -31,7 +31,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/weishunzhong.JPG"),
+  imageLink: require("../editable-stuff/Weishun_IAS.jpg"),
   imageSize: 375,
   message:
     "",
