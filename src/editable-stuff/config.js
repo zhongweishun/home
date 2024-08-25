@@ -154,6 +154,7 @@ const portfolio = {
               chunking, and showed that introducing specialized “chunking neurons’” and incorporating longer-term \
               synaptic plasticity allows the working memory network to spontaneously organize information into chunks, hence significantly increase its capacity.",
       thumbnail:require("../editable-stuff/HWM.png"), 
+      videoUrl:require("../editable-stuff/HWM_animation.mp4")
      },
     {
     category: "Mobile App",
