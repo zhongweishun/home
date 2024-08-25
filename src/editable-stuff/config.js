@@ -146,6 +146,16 @@ const portfolio = {
   note: "",
    list: [
     {
+      category: "Mobile App",
+      title: "Recurrent neural network for hierarchical working memory",
+      url: "https://arxiv.org/abs/2408.07637",
+      notes: "Our working memory span is extremely limited, typically around only 4 items. How then, are we able to process much larger streams of information, \
+              such as long texts or movies? Chunking is hypothesized to be the solution, but its underlying neural mechanism is unknown. We propose an RNN model for \
+              chunking, and showed that introducing specialized “chunking neurons’” and incorporating longer-term \
+              synaptic plasticity allows the working memory network to spontaneously organize information into chunks, hence significantly increase its capacity.",
+      thumbnail:require("../editable-stuff/HWM.png"), 
+     },
+    {
     category: "Mobile App",
     title: "Quantum neural networks for quantum error correction",
     url: "https://arxiv.org/abs/2401.06300",
@@ -156,7 +166,7 @@ const portfolio = {
     thumbnail:require("../editable-stuff/QNN.png"), 
    },
    {
-    category: "Mobile App",
+    category: "Machine Learning",
     title: "Weight-distribution constrained feedforward neural networks",
     url: "https://arxiv.org/abs/2206.08933",
     present:require("../editable-stuff/Disco_2022_neurips.png"),
@@ -171,7 +181,7 @@ const portfolio = {
     title: "Generative modeling by disordered quantum systems",
     url:"https://arxiv.org/abs/2207.02346",
     present:require("../editable-stuff/MBL_Born_poster.png"),
-    notes: "We proposed a class of quantum generative models that we have named “MBL hidden Born machines”. We proved that the trainability of basic Born machines could be tremendously improved by including hidden units, \
+    notes: "Can a quantum system be trained to perform generative modeling tasks? We proposed a class of quantum generative models that we have named “MBL hidden Born machines”. We proved that the trainability of basic Born machines could be tremendously improved by including hidden units, \
             and that the MBL Born machine possessed more expressive power than classical models. Our work revealed relationships between learning and physical dynamics that could serve as guiding principles for designing quantum generative models. ",
     thumbnail:require("../editable-stuff/MBL.png"), 
     // repo: "https://github.com/xunxdd/ILML---Google-Deep-Dream",

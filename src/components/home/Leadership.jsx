@@ -13,7 +13,9 @@ const Leadership = ({ heading, message, img, imageSize }) => {
       <div className="row">
         <div className="col-md-5">
           <p>
-          <b>[9]</b> <span style={{ color: 'red' }}> (new)</span> <a href="https://arxiv.org/abs/2401.06300" target="_blank">Advantage of Quantum Neural Networks as Quantum </a><br></br>
+          <b>[10]</b> <span style={{ color: 'red' }}> (new)</span> <a href="https://arxiv.org/abs/2408.07637" target="_blank">Hierarchical Working Memory and a New Magic Number</a>, <br></br>
+          <b>&emsp; &ensp;WZ</b>, Mikhail Katkov, Misha Tsodyks <i>arXiv:2408.07637 </i><br></br>
+          <b>[9]</b> <a href="https://arxiv.org/abs/2401.06300" target="_blank">Advantage of Quantum Neural Networks as Quantum </a><br></br>
           &emsp; &ensp; <a href="https://arxiv.org/abs/2401.06300" target="_blank">Information Decoders</a>, <br></br>
           <b>&emsp; &ensp;WZ</b>, Oles Shtanko, Ramis Movassagh <i>arXiv:2401.06300 </i><br></br>    
           <b>[8]</b> <a href="https://arxiv.org/abs/2206.08933" target="_blank">A Theory of Weight Distribution-constrained Learning</a>, <br></br>  
