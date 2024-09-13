@@ -59,11 +59,19 @@ const CardButtons = ({ video_url, link, repo, present, onShowModal }) => {
           <i className="fab fa-youtube" />
         </button>
       }
-      {present &&
+      {/* {present &&
         <button onClick={() => onShowModal(present)} className="btn btn-outline-secondary mr-3">
           <i className="fab fa-instagram" />
         </button>
-      }
+      } */}
+      {present && (
+  <button
+    onClick={() => onShowModal(present)}
+    className="btn btn-outline-secondary mr-3"
+  >
+    <i className="fas fa-image" />
+  </button>
+      )}
       {link &&
         <a href={link} target=" _blank" className="btn btn-outline-secondary">
           <i className="fas fa-link " />
