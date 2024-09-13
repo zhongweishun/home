@@ -13,11 +13,12 @@ const dummyNews = {
 
 const newsArray = [
   {
-    title: "(Latest) Preprint with video illustration",
-    description: "Check out the tweet below for a video illustration of my new preprint 'Hierarchical Working Memory and a New Magic Number'!",
+    title: "(Latest) Preprint with video illustrations",
+    description: "Check out the tweet and instagram posts below for video illustrations of my new preprint 'Hierarchical Working Memory and a New Magic Number'!",
     link: "https://arxiv.org/abs/2408.07637",
     tweet: "https://twitter.com/WeishunZhong/status/1827237443386397145",
-    date: "2024-08-25"
+    instagram: "https://www.instagram.com/p/C_0j_SgR7MN/",
+    date: "2024-09-12"
   }, 
   {
     title: "New preprint",
