@@ -147,6 +147,17 @@ const portfolio = {
    list: [
     {
       category: "Mobile App",
+      title: "Random tree ensemble for meaningful memory",
+      url: "https://arxiv.org/abs/2412.01806",
+      notes: "Semantic comprehension of meaningful material, such as narratives, has traditionally been studied with a focus on content-specific information, \
+              leaving common quantitative features across different narratives largely unexplored. By treating linguistic clauses as the fundamental 'atoms,' \
+              we introduce a statistical mechanics theory of random tree representations to model narratives. Remarkably, our simple toy model captures the \
+              statistical regularities observed in large-scale narrative recall experiments without requiring any parameter tuning. Our model further reveals \
+              a universal, scale-invariant limit for long narratives, where semantic abstraction emerges naturally as a consequence of the scale-invariance.",
+      thumbnail:require("../editable-stuff/RTM.png"), 
+     },
+    {
+      category: "Mobile App",
       title: "Recurrent neural network for hierarchical working memory",
       url: "https://arxiv.org/abs/2408.07637",
       notes: "Our working memory span is extremely limited, typically around only 4 items. How then, are we able to process much larger streams of information, \
@@ -157,7 +168,7 @@ const portfolio = {
       videoUrl:require("../editable-stuff/HWM_animation.mp4")
      },
     {
-    category: "Mobile App",
+    category: "Machine Learning",
     title: "Quantum neural networks for quantum error correction",
     url: "https://arxiv.org/abs/2401.06300",
     notes: "Quantum neural networks (QNNs) are inspired by their classical counterparts, but beyond heuristic considerations, the usefulness of such a concept \

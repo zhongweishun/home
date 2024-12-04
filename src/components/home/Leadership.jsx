@@ -13,7 +13,9 @@ const Leadership = ({ heading, message, img, imageSize }) => {
       <div className="row">
         <div className="col-md-5">
           <p>
-          <b>[10]</b> <span style={{ color: 'red' }}> (new)</span> <a href="https://arxiv.org/abs/2408.07637" target="_blank">Hierarchical Working Memory and a New Magic Number</a>, <br></br>
+          <b>[11]</b> <span style={{ color: 'red' }}> (new)</span> <a href="https://arxiv.org/abs/2412.01806" target="_blank">Random Tree Model of Meaningful Memory</a>, <br></br>
+          <b>&emsp; &ensp;WZ</b>, Tankut Can, Antonis Georgiou, Ilya Shnayderman, Mikhail Katkov, &emsp; &ensp; Misha Tsodyks <i>arXiv:2412.01806 </i><br></br>
+          <b>[10]</b> <a href="https://arxiv.org/abs/2408.07637" target="_blank">Hierarchical Working Memory and a New Magic Number</a>, <br></br>
           <b>&emsp; &ensp;WZ</b>, Mikhail Katkov, Misha Tsodyks <i>arXiv:2408.07637 </i><br></br>
           <b>[9]</b> <a href="https://arxiv.org/abs/2401.06300" target="_blank">Advantage of Quantum Neural Networks as Quantum </a><br></br>
           &emsp; &ensp; <a href="https://arxiv.org/abs/2401.06300" target="_blank">Information Decoders</a>, <br></br>

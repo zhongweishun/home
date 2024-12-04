@@ -13,8 +13,14 @@ const dummyNews = {
 
 const newsArray = [
   {
-    title: "(Latest) Preprint with video illustrations",
-    description: "Check out the tweet and instagram posts below for video illustrations of my new preprint 'Hierarchical Working Memory and a New Magic Number'!",
+    title: "(Latest) Preprint out - Scale-invariance in narratives",
+    description: "In our new preprint 'Random Tree Model of Meaningful Memory' we discovered scale-invariance in narrative memory,  leading to a surprising prediction about the emergence of semantic abstraction. Details in below!",
+    link: "https://arxiv.org/abs/2412.01806",
+    date: "2024-12-04"
+  }, 
+  {
+    title: "Preprint with video illustrations",
+    description: "Check out the tweet and instagram posts below for video illustrations of my new preprint 'Hierarchical Working Memory and a New Magic Number'.",
     link: "https://arxiv.org/abs/2408.07637",
     tweet: "https://twitter.com/WeishunZhong/status/1827237443386397145",
     instagram: "https://www.instagram.com/p/C_0j_SgR7MN/",
@@ -22,7 +28,7 @@ const newsArray = [
   }, 
   {
     title: "New preprint",
-    description: "Check out my new preprint on quantum neural networks!",
+    description: "Check out my new preprint on quantum neural networks.",
     link: "https://arxiv.org/abs/2401.06300",
     tweet: "https://twitter.com/WeishunZhong/status/1746974293500551486",
     date: "2024-01-14"
