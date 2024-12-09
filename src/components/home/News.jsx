@@ -16,7 +16,8 @@ const newsArray = [
     title: "(Latest) Preprint out - Scale-invariance in narratives",
     description: "In our new preprint 'Random Tree Model of Meaningful Memory' we discovered scale-invariance in narrative memory,  leading to a surprising prediction about the emergence of semantic abstraction. Details in below!",
     link: "https://arxiv.org/abs/2412.01806",
-    date: "2024-12-04"
+    tweet: "https://twitter.com/WeishunZhong/status/1866170850640007550",
+    date: "2024-12-09"
   }, 
   {
     title: "Preprint with video illustrations",
