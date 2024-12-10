@@ -155,7 +155,7 @@ const portfolio = {
               statistical regularities observed in large-scale narrative recall experiments without requiring any parameter tuning. Our model further reveals \
               a universal, scale-invariant limit for long narratives, where semantic abstraction emerges naturally as a consequence of the scale-invariance.",
       thumbnail:require("../editable-stuff/RTM.png"), 
-      videoUrl:require("../editable-stuff/RTM_1minute.mp4")
+      videoUrl:"/RTM_1minute.mp4"
      },
     {
       category: "Mobile App",
