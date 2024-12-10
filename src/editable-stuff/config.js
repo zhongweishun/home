@@ -154,7 +154,7 @@ const portfolio = {
               we introduce a statistical mechanics theory of random tree representations to model narratives. Remarkably, our simple toy model captures the \
               statistical regularities observed in large-scale narrative recall experiments without requiring any parameter tuning. Our model further reveals \
               a universal, scale-invariant limit for long narratives, where semantic abstraction emerges naturally as a consequence of the scale-invariance.",
-      thumbnail:require("../editable-stuff/RTM.png"), 
+      thumbnail:"/RTM.png",
       videoUrl:"/RTM_1minute.mp4"
      },
     {
