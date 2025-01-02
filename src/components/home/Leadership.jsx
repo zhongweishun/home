@@ -23,7 +23,7 @@ const Leadership = ({ heading, message, img, imageSize }) => {
           <b>[8]</b> <a href="https://arxiv.org/abs/2206.08933" target="_blank">A Theory of Weight Distribution-constrained Learning</a>, <br></br>  
           <b>&emsp; &ensp;WZ</b>, Ben Sorscher, Daniel D Lee, Haim Sompolinsky, <i>NeurIPS 2022 </i><br></br>    
           <b>[7]</b> <a href="https://arxiv.org/abs/2207.02346" target="_blank">Many-body Localized Hidden Generative Models</a>, <br></br>  
-          <b>&emsp; &ensp;WZ</b>, Xun Gao, Susanne Yelin, Khadijeh Najafi, <i>arXiv: 2207.02346 </i><br></br>    
+          <b>&emsp; &ensp;WZ</b>, Xun Gao, Susanne Yelin, Khadijeh Najafi, <i>Physical Review Research &emsp; &ensp; 6.4 (2024): 043041. </i><br></br>    
           <b>[6]</b> <a href="https://www.nature.com/articles/s41598-021-88311-7" target="_blank">Machine Learning Outperforms Thermodynamics in Measuring </a><br></br>  
           &emsp; &ensp; <a href="https://www.nature.com/articles/s41598-021-88311-7" target="_blank">how well a Many-body System Learns a Drive</a>, <br></br>  
           <b>&emsp; &ensp;WZ*</b>, Jacob M Gold*, Sarah Marzen, Jeremy L England, Nicole Yunger &emsp; &ensp; Halpern, <i>Scientific reports 11.1 (2021): 1-11</i><br></br>

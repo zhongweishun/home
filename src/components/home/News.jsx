@@ -20,6 +20,13 @@ const newsArray = [
     date: "2024-12-09"
   }, 
   {
+    title: "Paper published",
+    description: "My work on many-body localized hidden generative models has been published in Physical Review Research. Check it out!",
+    link: "https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.6.043041",
+    tweet: "https://x.com/WeishunZhong/status/1848535500392460561",
+    date: "2024-10-21"
+  }, 
+  {
     title: "Preprint with video illustrations",
     description: "Check out the tweet and instagram posts below for video illustrations of my new preprint 'Hierarchical Working Memory and a New Magic Number'.",
     link: "https://arxiv.org/abs/2408.07637",
