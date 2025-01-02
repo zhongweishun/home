@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d72f79df.css",
-    "main.js": "/static/js/main.bd3917a9.js",
+    "main.js": "/static/js/main.66c75ffb.js",
     "static/js/787.6971d1b3.chunk.js": "/static/js/787.6971d1b3.chunk.js",
     "static/media/HWM_animation.mp4": "/static/media/HWM_animation.f7ad9470ebb02db1d717.mp4",
     "static/media/Weishun_IAS.jpg": "/static/media/Weishun_IAS.23cff5ccae41f509dc77.jpg",
@@ -10,7 +10,7 @@
     "static/media/MBL.png": "/static/media/MBL.6de083d2ed612340d362.png",
     "static/media/quenched.png": "/static/media/quenched.e5f82cbb222bd0507581.png",
     "static/media/QNN.png": "/static/media/QNN.e1770ae545217979c0d2.png",
-    "static/media/resume.pdf": "/static/media/resume.a32b9ac3f43d551fdceb.pdf",
+    "static/media/resume.pdf": "/static/media/resume.ac4d436664fdff98175b.pdf",
     "static/media/HWM.png": "/static/media/HWM.fdd9346321b1b3acbcc3.png",
     "static/media/disco.png": "/static/media/disco.0931631db6bc4a1e0978.png",
     "static/media/spin_glass.png": "/static/media/spin_glass.978ac65d8340f5415a1b.png",
@@ -18,11 +18,11 @@
     "static/media/Harvard_small.png": "/static/media/Harvard_small.16a124735dc82c7206ba.png",
     "index.html": "/index.html",
     "main.d72f79df.css.map": "/static/css/main.d72f79df.css.map",
-    "main.bd3917a9.js.map": "/static/js/main.bd3917a9.js.map",
+    "main.66c75ffb.js.map": "/static/js/main.66c75ffb.js.map",
     "787.6971d1b3.chunk.js.map": "/static/js/787.6971d1b3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d72f79df.css",
-    "static/js/main.bd3917a9.js"
+    "static/js/main.66c75ffb.js"
   ]
 }
