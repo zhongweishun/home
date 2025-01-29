@@ -15,7 +15,7 @@ const newsArray = [
   {
     title: "Zoom seminar on Quantum Neural Networks",
     description: "I had the pleasure of presenting my recent work on QNNs during a zoom seminar hosted by OSU and Harvard. Many thanks to Kaifeng for the kind invitation!",
-    videoUrl: "/QNN_20250128.mp4",
+    videoUrl: "/QNN_talk.mp4",
     date: "2025-01-28"
   }, 
   {

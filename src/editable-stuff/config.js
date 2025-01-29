@@ -177,7 +177,7 @@ const portfolio = {
             QNNs can provide an almost quadratic improvement in readout error over traditional stabilizer-based quantum error correction, \
             thus establishing a clear scenario where quantum AI methods such as QNNs are proven to provide an advantage over conventional non-AI methods.",
     thumbnail:require("../editable-stuff/QNN.png"), 
-    videoUrl:"/QNN_20250128.mp4"
+    videoUrl:"/QNN_talk.mp4"
    },
    {
     category: "Machine Learning",
