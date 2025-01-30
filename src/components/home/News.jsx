@@ -19,10 +19,10 @@ const newsArray = [
     date: "2025-01-28"
   }, 
   {
-    title: "See you at Cosyne 2025!",
-    description: "Three abstracts has been accepted at Cosyne (Computational and Systems Neuroscience) 2025. I will be in Montreal from 27 March to 1 April 2025. Looking forward to seeing you there!",
-    date: "2024-12-23"
-  }, 
+    "title": "See you at Cosyne 2025!",
+    "description": "Excited to share that three of our abstracts have been accepted at Cosyne 2025 (Computational and Systems Neuroscience). I’ll be in Montreal from March 27 to April 1, 2025—looking forward to connecting with everyone there!",
+    "date": "2024-12-23"
+},
   {
     title: "(Latest) Preprint out - Scale-invariance in narratives",
     description: "In our new preprint 'Random Tree Model of Meaningful Memory' we discovered scale-invariance in narrative memory,  leading to a surprising prediction about the emergence of semantic abstraction. Details in below!",
