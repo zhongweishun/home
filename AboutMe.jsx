@@ -46,7 +46,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
         <div className={`col-lg-${showPic ? "7" : "12"}`}>
           <h2 className="display-4 mb-5 text-center">{heading}</h2>
           <p className="lead text-left">{"Hi! I am currently a "}
-          <a href="https://www.ias.edu/scholars/weishun-zhong" target="_blank">postdoctoral member</a> {"at the Institute for Advanced Study, Princeton. "}<p></p> 
+          <a href="https://www.ias.edu/scholars/weishun-zhong" target="_blank">postdoctoral member</a> {"at the Institute for Advanced Study, Princeton, working with "}<a href="https://en.wikipedia.org/wiki/Misha_Tsodyks" target="_blank">Misha Tsodyks.</a><p></p> 
           {"I obtained my Ph.D. in physics from MIT in June 2023, where I was fortunate to be supervised by "} 
           <a href="https://en.wikipedia.org/wiki/Haim_Sompolinsky" target="_blank">Haim Sompolinsky</a> {"(Harvard) and "} 
           <a href="https://en.wikipedia.org/wiki/Mehran_Kardar" target="_blank">Mehran Kardar</a> 

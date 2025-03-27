@@ -13,16 +13,17 @@ const dummyNews = {
 
 const newsArray = [
   {
+    title: "See you at Cosyne 2025!",
+    description: "I’ll be in Montreal from March 27 to April 2, 2025 for Cosyne 2025 (Computational and Systems Neuroscience). Please drop by my posters at 1-089, 2-029, and 3-046!",
+    tweet: "https://x.com/WeishunZhong/status/1905063980197896195",
+    date: "2025-03-26"
+},
+  {
     title: "Zoom seminar on Quantum Neural Networks",
     description: "I had the pleasure of presenting my recent work on QNNs during a zoom seminar hosted by OSU and Harvard. Many thanks to Kaifeng for the kind invitation!",
     videoUrl: "/QNN_talk.mp4",
     date: "2025-01-28"
   }, 
-  {
-    "title": "See you at Cosyne 2025!",
-    "description": "Excited to share that three of our abstracts have been accepted at Cosyne 2025 (Computational and Systems Neuroscience). I’ll be in Montreal from March 27 to April 1, 2025—looking forward to connecting with everyone there!",
-    "date": "2024-12-23"
-},
   {
     title: "(Latest) Preprint out - Scale-invariance in narratives",
     description: "In our new preprint 'Random Tree Model of Meaningful Memory' we discovered scale-invariance in narrative memory,  leading to a surprising prediction about the emergence of semantic abstraction. Details in below!",
