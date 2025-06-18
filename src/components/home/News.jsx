@@ -12,6 +12,45 @@ const dummyNews = {
 };
 
 const newsArray = [
+  // {
+  //   title: "(Latest) Paper chosen as Editor's suggestion at PRL",
+  //   description: "Our new paper 'Random Tree Model of Meaningful Memory' is published in Physical Review Letters and chosen as Editor's suggestion! Moreover, it is featured in the Physics magazine article 'How we remember stories'.",
+  //   link: "https://journals.aps.org/prl/abstract/10.1103/g1cz-wk1l",
+  //   tweet: "https://twitter.com/WeishunZhong/status/1866170850640007550",
+  //   link: "https://physics.aps.org/articles/v18/117",
+  //   date: "2025-6-18"
+  // }, 
+  {
+    title: "(Latest) Paper chosen as Editor's Suggestion at PRL",
+    description: (
+      <>
+        Our new paper&nbsp;
+        <em>“Random Tree Model of Meaningful Memory”</em>&nbsp;is published in <em>Physical&nbsp;Review&nbsp;Letters</em> and chosen as
+        an Editor’s Suggestion! Moreover, it is featured in the <em>Physics</em> magazine article&nbsp;
+        <em>
+          <a
+            href="https://physics.aps.org/articles/v18/117"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            “How we remember stories”
+          </a>
+        </em>{" "}
+        .
+      </>
+    ),
+    link: "https://journals.aps.org/prl/abstract/10.1103/g1cz-wk1l",
+    tweet: "https://twitter.com/WeishunZhong/status/1866170850640007550",
+    date: "2025-06-18"
+  },
+  {
+    title: "IAS press release highlights our recent work on memory",
+    description: "The IAS Communications team, along with guest writer Devorah Fischler, published a press release showcasing our recent work on memory. The article is also featured across IAS social media channels. Check it out!",
+    link: "https://www.ias.edu/ideas/ias-scholars-discover-universal-law-memory",
+    tweet: "https://x.com/the_IAS/status/1934984755658752207",
+    instagram: "https://www.instagram.com/p/DLAXCjYxTqv/",
+    date: "2025-06-17"
+  }, 
   {
     title: "See you at Cosyne 2025!",
     description: "I’ll be in Montreal from March 27 to April 2, 2025 for Cosyne 2025 (Computational and Systems Neuroscience). Please drop by my posters at 1-089, 2-029, and 3-046!",
@@ -23,13 +62,6 @@ const newsArray = [
     description: "I had the pleasure of presenting my recent work on QNNs during a zoom seminar hosted by OSU and Harvard. Many thanks to Kaifeng for the kind invitation!",
     videoUrl: "/QNN_talk.mp4",
     date: "2025-01-28"
-  }, 
-  {
-    title: "(Latest) Preprint out - Scale-invariance in narratives",
-    description: "In our new preprint 'Random Tree Model of Meaningful Memory' we discovered scale-invariance in narrative memory,  leading to a surprising prediction about the emergence of semantic abstraction. Details in below!",
-    link: "https://arxiv.org/abs/2412.01806",
-    tweet: "https://twitter.com/WeishunZhong/status/1866170850640007550",
-    date: "2024-12-09"
   }, 
   {
     title: "Paper published",

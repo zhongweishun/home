@@ -13,16 +13,16 @@ const Leadership = ({ heading, message, img, imageSize }) => {
       <div className="row">
         <div className="col-md-5">
           <p>
-          <b>[11]</b> <span style={{ color: 'red' }}> (new)</span> <a href="https://arxiv.org/abs/2412.01806" target="_blank">Random Tree Model of Meaningful Memory</a>, <br></br>
-          <b>&emsp; &ensp;WZ</b>, Tankut Can, Antonis Georgiou, Ilya Shnayderman, Mikhail Katkov, &emsp; &ensp; Misha Tsodyks <i>arXiv:2412.01806 </i><br></br>
+          <b>[11]</b> <span style={{ color: 'red' }}> (new)</span> <a href="https://journals.aps.org/prl/abstract/10.1103/g1cz-wk1l" target="_blank">Random Tree Model of Meaningful Memory</a>, <br></br>
+          <b>&emsp; &ensp;WZ</b>, Tankut Can, Antonis Georgiou, Ilya Shnayderman, Mikhail Katkov, &emsp; &ensp; Misha Tsodyks, <i>Physical Review Letters 134.23 (2025): 237402. </i><br></br>
           <b>[10]</b> <a href="https://arxiv.org/abs/2408.07637" target="_blank">Hierarchical Working Memory and a New Magic Number</a>, <br></br>
-          <b>&emsp; &ensp;WZ</b>, Mikhail Katkov, Misha Tsodyks <i>arXiv:2408.07637 </i><br></br>
+          <b>&emsp; &ensp;WZ</b>, Mikhail Katkov, Misha Tsodyks, <i>arXiv:2408.07637 </i><br></br>
           <b>[9]</b> <a href="https://arxiv.org/abs/2401.06300" target="_blank">Advantage of Quantum Neural Networks as Quantum </a><br></br>
           &emsp; &ensp; <a href="https://arxiv.org/abs/2401.06300" target="_blank">Information Decoders</a>, <br></br>
-          <b>&emsp; &ensp;WZ</b>, Oles Shtanko, Ramis Movassagh <i>arXiv:2401.06300 </i><br></br>    
+          <b>&emsp; &ensp;WZ</b>, Oles Shtanko, Ramis Movassagh, <i>arXiv:2401.06300 </i><br></br>    
           <b>[8]</b> <a href="https://arxiv.org/abs/2206.08933" target="_blank">A Theory of Weight Distribution-constrained Learning</a>, <br></br>  
           <b>&emsp; &ensp;WZ</b>, Ben Sorscher, Daniel D Lee, Haim Sompolinsky, <i>NeurIPS 2022 </i><br></br>    
-          <b>[7]</b> <a href="https://arxiv.org/abs/2207.02346" target="_blank">Many-body Localized Hidden Generative Models</a>, <br></br>  
+          <b>[7]</b> <a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.6.043041" target="_blank">Many-body Localized Hidden Generative Models</a>, <br></br>  
           <b>&emsp; &ensp;WZ</b>, Xun Gao, Susanne Yelin, Khadijeh Najafi, <i>Physical Review Research &emsp; &ensp; 6.4 (2024): 043041. </i><br></br>    
           <b>[6]</b> <a href="https://www.nature.com/articles/s41598-021-88311-7" target="_blank">Machine Learning Outperforms Thermodynamics in Measuring </a><br></br>  
           &emsp; &ensp; <a href="https://www.nature.com/articles/s41598-021-88311-7" target="_blank">how well a Many-body System Learns a Drive</a>, <br></br>  
