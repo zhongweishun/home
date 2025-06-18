@@ -40,7 +40,7 @@ const newsArray = [
       </>
     ),
     link: "https://journals.aps.org/prl/abstract/10.1103/g1cz-wk1l",
-    tweet: "https://twitter.com/WeishunZhong/status/1866170850640007550",
+    tweet: "https://x.com/WeishunZhong/status/1935470330660983045",
     date: "2025-06-18"
   },
   {
