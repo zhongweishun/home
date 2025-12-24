@@ -12,16 +12,21 @@ const dummyNews = {
 };
 
 const newsArray = [
-  // {
-  //   title: "(Latest) Paper chosen as Editor's suggestion at PRL",
-  //   description: "Our new paper 'Random Tree Model of Meaningful Memory' is published in Physical Review Letters and chosen as Editor's suggestion! Moreover, it is featured in the Physics magazine article 'How we remember stories'.",
-  //   link: "https://journals.aps.org/prl/abstract/10.1103/g1cz-wk1l",
-  //   tweet: "https://twitter.com/WeishunZhong/status/1866170850640007550",
-  //   link: "https://physics.aps.org/articles/v18/117",
-  //   date: "2025-6-18"
-  // }, 
   {
-    title: "(Latest) Paper chosen as Editor's Suggestion at PRL",
+    title: "(Latest) Highlights of the Year 2025 by APS Physics!",
+    description: (
+      <>
+        Our <em>PRL</em> paper&nbsp;
+        <em>“Random Tree Model of Meaningful Memory”</em>&nbsp;is chosen as one of the ten
+        highlights of the year by APS  <em>Physics Magazine</em>! Check out the press below. &nbsp;
+      </>
+    ),
+    link: "https://physics.aps.org/articles/v18/191",
+    tweet: "https://x.com/PhysicsMagazine/status/2001286126762393655",
+    date: "2025-12-24"
+  },
+  {
+    title: "Paper chosen as Editor's Suggestion at PRL",
     description: (
       <>
         Our new paper&nbsp;
