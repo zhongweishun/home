@@ -13,7 +13,20 @@ const dummyNews = {
 
 const newsArray = [
   {
-    title: "(Latest) Highlights of the Year 2025 by APS Physics!",
+    title: "(Latest) New preprint",
+    description: (
+      <>
+        Our new preprint&nbsp;
+        <em>“Semantic Chunking and the Entropy of Natural Language”</em>&nbsp;ties the information rate of natural language to how meaning is organized in a text! Also check out the very cool podcast that discusses our paper. &nbsp;
+      </>
+    ),
+    link: "https://arxiv.org/abs/2602.13194",
+    tweet: "https://x.com/guifav/status/2023366990220361852",
+    videoUrl: "https://www.youtube.com/watch?v=yVgmHT-1fa4",
+    date: "2026-02-25"
+  },
+  {
+    title: "Highlights of the Year 2025 by APS Physics!",
     description: (
       <>
         Our <em>PRL</em> paper&nbsp;

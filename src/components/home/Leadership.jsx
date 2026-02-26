@@ -13,10 +13,13 @@ const Leadership = ({ heading, message, img, imageSize }) => {
       <div className="row">
         <div className="col-md-5">
           <p>
-          <b>[11]</b> <span style={{ color: 'red' }}> (new)</span> <a href="https://journals.aps.org/prl/abstract/10.1103/g1cz-wk1l" target="_blank">Random Tree Model of Meaningful Memory</a>, <br></br>
+          <b>[12]</b> <span style={{ color: 'red' }}> (new)</span> <a href="https://arxiv.org/abs/2602.13194" target="_blank">Semantic Chunking and the Entropy of Natural Language</a>, <br></br>
+          <b>&emsp; &ensp;WZ</b>, Doron Sivan, Tankut Can, Mikhail Katkov, Misha Tsodyks, <br></br>  
+          &emsp; &ensp; <i>arXiv:2602.13194 </i><br></br>
+          <b>[11]</b> <a href="https://journals.aps.org/prl/abstract/10.1103/g1cz-wk1l" target="_blank">Random Tree Model of Meaningful Memory</a>, <br></br>
           <b>&emsp; &ensp;WZ</b>, Tankut Can, Antonis Georgiou, Ilya Shnayderman, Mikhail Katkov, &emsp; &ensp; Misha Tsodyks, <i>Physical Review Letters 134.23 (2025): 237402. </i><br></br>
-          <b>[10]</b> <a href="https://arxiv.org/abs/2408.07637" target="_blank">Hierarchical Working Memory and a New Magic Number</a>, <br></br>
-          <b>&emsp; &ensp;WZ</b>, Mikhail Katkov, Misha Tsodyks, <i>arXiv:2408.07637 </i><br></br>
+          <b>[10]</b> <a href="https://elifesciences.org/reviewed-preprints/109538" target="_blank">Synaptic Theory of Chunking in Working Memory</a>, <br></br>
+          <b>&emsp; &ensp;WZ</b>, Mikhail Katkov, Misha Tsodyks, <i>eLife 2026 </i><br></br>
           <b>[9]</b> <a href="https://arxiv.org/abs/2401.06300" target="_blank">Advantage of Quantum Neural Networks as Quantum </a><br></br>
           &emsp; &ensp; <a href="https://arxiv.org/abs/2401.06300" target="_blank">Information Decoders</a>, <br></br>
           <b>&emsp; &ensp;WZ</b>, Oles Shtanko, Ramis Movassagh, <i>arXiv:2401.06300 </i><br></br>    
