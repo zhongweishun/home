@@ -19,7 +19,7 @@ const Leadership = ({ heading, message, img, imageSize }) => {
           <b>[11]</b> <a href="https://journals.aps.org/prl/abstract/10.1103/g1cz-wk1l" target="_blank">Random Tree Model of Meaningful Memory</a>, <br></br>
           <b>&emsp; &ensp;WZ</b>, Tankut Can, Antonis Georgiou, Ilya Shnayderman, Mikhail Katkov, &emsp; &ensp; Misha Tsodyks, <i>Physical Review Letters 134.23 (2025): 237402. </i><br></br>
           <b>[10]</b> <a href="https://elifesciences.org/reviewed-preprints/109538" target="_blank">Synaptic Theory of Chunking in Working Memory</a>, <br></br>
-          <b>&emsp; &ensp;WZ</b>, Mikhail Katkov, Misha Tsodyks, <i>eLife 2026 </i><br></br>
+          <b>&emsp; &ensp;WZ</b>, Mikhail Katkov, Misha Tsodyks, <i>eLife 15 (2026). </i><br></br>
           <b>[9]</b> <a href="https://arxiv.org/abs/2401.06300" target="_blank">Advantage of Quantum Neural Networks as Quantum </a><br></br>
           &emsp; &ensp; <a href="https://arxiv.org/abs/2401.06300" target="_blank">Information Decoders</a>, <br></br>
           <b>&emsp; &ensp;WZ</b>, Oles Shtanko, Ramis Movassagh, <i>arXiv:2401.06300 </i><br></br>    
