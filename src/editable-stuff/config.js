@@ -145,6 +145,13 @@ const portfolio = {
   heading: "Recent Projects",
   note: "",
    list: [
+      {
+      category: "Mobile App",
+      title: "Semantic chunking and the entropy of natural language",
+      url: "https://arxiv.org/abs/2602.13194",
+      notes: "Natural language is both highly structured and only partially predictable. Since Shannon's classic estimate that the entropy rate of printed English is approximately 1 bit per character, this value has been celebrated as a benchmark for language modeling, reflecting a fundamental property across languages: natural texts contain about 80\% redundancy. Yet a central question has remained unresolved: what structural principles account for this large redundancy in language? We demonstrate that a substantial component of this redundancy is encoded in the hierarchical semantic organization of text, and knowing this structure enables prediction of perplexity across different corpora.",
+      thumbnail:require("../editable-stuff/semantic_chunking.png")
+     },  
     {
       category: "Mobile App",
       title: "Random tree ensemble for meaningful memory",
@@ -170,7 +177,7 @@ const portfolio = {
       videoUrl:require("../editable-stuff/HWM_animation.mp4")
      },
     {
-    category: "Machine Learning",
+    category: "Mobile App",
     title: "Quantum neural networks for quantum error correction",
     url: "https://arxiv.org/abs/2401.06300",
     notes: "Quantum neural networks (QNNs) are inspired by their classical counterparts, but beyond heuristic considerations, the usefulness of such a concept \
