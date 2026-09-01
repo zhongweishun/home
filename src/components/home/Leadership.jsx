@@ -53,7 +53,7 @@ const Leadership = ({ heading, message, img, imageSize }) => {
               return (
                 <Carousel.Item key={index}>
                   <img
-                    className="d-block w-100"
+                    className="d-block w-100 publication-fig"
                     src={value.img}
                     alt="First slide"
                     width={imageSize.width}

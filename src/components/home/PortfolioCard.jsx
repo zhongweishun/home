@@ -31,7 +31,7 @@ const PortfolioCard = ({ value, imgHeight }) => {
       <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
         <Card.Body>
           <Card.Title as="h5">{title}</Card.Title>
-          <img className="card-img-top" height={imgHeight} src={thumbnail} alt={title}></img>
+          <img className="card-img-top portfolio-thumb" height={imgHeight} src={thumbnail} alt={title}></img>
           <hr />
           <Card.Text>{notes}</Card.Text>
           <CardButtons video_url={videoUrl} link={url} repo={repo} present={present} onShowModal={handleShow} />
@@ -41,7 +41,7 @@ const PortfolioCard = ({ value, imgHeight }) => {
       <Modal show={showModal} onHide={handleClose} centered size="xl">
         <Modal.Body>
           {isVideo ? (
-            <video src={modalContent} controls autoPlay style={{ width: "100%", height: "100%" }} />
+            <video src={modalContent} controls preload="metadata" style={{ width: "100%", height: "100%" }} />
           ) : (
             <img src={modalContent} alt="Presentation" width="100%" />
           )}

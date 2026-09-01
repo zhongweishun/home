@@ -28,12 +28,6 @@ const NewsCard = ({ value }) => {
 
   const handleClose = () => setShowModal(false);
 
-  // Handle opening video in a new tab
-  const handleOpenVideo = () => {
-    // If your videoUrl is a relative path, prepend process.env.PUBLIC_URL
-    window.open(process.env.PUBLIC_URL + videoUrl, "_blank", "noopener,noreferrer");
-  };
-
   // Helper function to extract Instagram post ID from the URL
   const getInstagramPostId = (url) => {
     const regex = /(?:https?:\/\/)?(?:www\.)?instagram\.com\/p\/([a-zA-Z0-9_-]+)/i;
@@ -91,10 +85,10 @@ const NewsCard = ({ value }) => {
               </button>
             )}
 
-            {/* Video -> open in new tab (no modal) */}
+            {/* Video (modal, user starts playback) */}
             {videoUrl && (
               <button
-                onClick={handleOpenVideo}
+                onClick={() => handleShow("video")}
                 className="btn btn-outline-secondary mr-3"
               >
                 <i className="fas fa-video" />
@@ -119,6 +113,16 @@ const NewsCard = ({ value }) => {
         {modalContent === "twitter" && tweet && (
           <Modal.Body>
             <Tweet id={tweet.split("/status/")[1].split("/")[0]} />
+          </Modal.Body>
+        )}
+        {modalContent === "video" && videoUrl && (
+          <Modal.Body>
+            <video
+              src={process.env.PUBLIC_URL + videoUrl}
+              controls
+              preload="metadata"
+              style={{ width: "100%" }}
+            />
           </Modal.Body>
         )}
         {modalContent === "instagram" && instagram && (

@@ -1,0 +1,23 @@
+// Mobile-only overrides. Every rule is scoped to a max-width media query,
+// so desktop rendering is unaffected.
+
+// Publications figure and project thumbnails carry fixed pixel heights that
+// squish the aspect ratio once the column is narrower than the image.
+@media (max-width: 767.98px) {
+  .portfolio-thumb,
+  .publication-fig {
+    height: auto !important;
+    width: 100%;
+  }
+}
+
+// About Me profile photo: shown centered above the text on small screens
+// (previously d-none d-lg-block removed it entirely), capped so the fixed
+// 375px width attribute can't overflow narrow viewports.
+@media (max-width: 991.98px) {
+  .about-profile-pic {
+    width: min(70vw, 320px);
+    height: auto;
+    margin-bottom: 1.5rem;
+  }
+}
