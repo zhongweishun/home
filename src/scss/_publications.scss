@@ -1,0 +1,19 @@
+// Publications list: number in a fixed-width left column, title/authors/venue
+// wrapping naturally beside it at any screen width (hanging-indent look).
+.publication-entry {
+  display: flex;
+  margin-bottom: 0.75rem;
+}
+
+.publication-num {
+  flex: 0 0 2.4em;
+}
+
+.publication-body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.publication-authors {
+  display: block;
+}

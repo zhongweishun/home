@@ -2,6 +2,149 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import { Jumbotron } from "./migration";
 
+// Each entry renders as: [num] title (link), then authors and venue flowing
+// naturally below it. No manual line breaks — text wraps to fit any screen.
+const publications = [
+  {
+    num: 12,
+    isNew: true,
+    href: "https://arxiv.org/abs/2602.13194",
+    title: "Semantic Chunking and the Entropy of Natural Language",
+    authors: (
+      <>
+        <b>WZ</b>, Doron Sivan, Tankut Can, Mikhail Katkov, Misha Tsodyks
+      </>
+    ),
+    venue: "arXiv:2602.13194",
+  },
+  {
+    num: 11,
+    href: "https://journals.aps.org/prl/abstract/10.1103/g1cz-wk1l",
+    title: "Random Tree Model of Meaningful Memory",
+    authors: (
+      <>
+        <b>WZ</b>, Tankut Can, Antonis Georgiou, Ilya Shnayderman, Mikhail
+        Katkov, Misha Tsodyks
+      </>
+    ),
+    venue: "Physical Review Letters 134.23 (2025): 237402.",
+  },
+  {
+    num: 10,
+    href: "https://elifesciences.org/reviewed-preprints/109538",
+    title: "Synaptic Theory of Chunking in Working Memory",
+    authors: (
+      <>
+        <b>WZ</b>, Mikhail Katkov, Misha Tsodyks
+      </>
+    ),
+    venue: "eLife 15 (2026).",
+  },
+  {
+    num: 9,
+    href: "https://arxiv.org/abs/2401.06300",
+    title: "Advantage of Quantum Neural Networks as Quantum Information Decoders",
+    authors: (
+      <>
+        <b>WZ</b>, Oles Shtanko, Ramis Movassagh
+      </>
+    ),
+    venue: "arXiv:2401.06300",
+  },
+  {
+    num: 8,
+    href: "https://arxiv.org/abs/2206.08933",
+    title: "A Theory of Weight Distribution-constrained Learning",
+    authors: (
+      <>
+        <b>WZ</b>, Ben Sorscher, Daniel D Lee, Haim Sompolinsky
+      </>
+    ),
+    venue: "NeurIPS 2022",
+  },
+  {
+    num: 7,
+    href: "https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.6.043041",
+    title: "Many-body Localized Hidden Generative Models",
+    authors: (
+      <>
+        <b>WZ</b>, Xun Gao, Susanne Yelin, Khadijeh Najafi
+      </>
+    ),
+    venue: "Physical Review Research 6.4 (2024): 043041.",
+  },
+  {
+    num: 6,
+    href: "https://www.nature.com/articles/s41598-021-88311-7",
+    title:
+      "Machine Learning Outperforms Thermodynamics in Measuring how well a Many-body System Learns a Drive",
+    authors: (
+      <>
+        <b>WZ*</b>, Jacob M Gold*, Sarah Marzen, Jeremy L England, Nicole
+        Yunger Halpern
+      </>
+    ),
+    venue: "Scientific reports 11.1 (2021): 1-11",
+  },
+  {
+    num: 5,
+    href: "https://arxiv.org/abs/2004.03604",
+    title: "Learning about Learning by Many-body Systems",
+    authors: (
+      <>
+        <b>WZ*</b>, Jacob M Gold*, Sarah Marzen, Jeremy L England, Nicole
+        Yunger Halpern
+      </>
+    ),
+    venue: "ICML workshop (2020)",
+  },
+  {
+    num: 4,
+    href: "https://direct.mit.edu/neco/article/32/6/1033/95586",
+    title: "Non-equilibrium Statistical Mechanics of Continuous Attractors",
+    authors: (
+      <>
+        <b>WZ</b>, Zhiyue Lu, David J. Schwab†, and Arvind Murugan†
+      </>
+    ),
+    venue: "Neural computation (2020) 32 (6)",
+  },
+  {
+    num: 3,
+    href: "https://arxiv.org/abs/1912.05127",
+    title: "A Closer Look at Disentangling in beta-VAE",
+    authors: (
+      <>
+        Harshvardhan Sikka*, <b>WZ*</b> (alphabetical order), Jun Yin, Cengiz
+        Pehlevan
+      </>
+    ),
+    venue: "53rd Asilomar Conference on Signals, Systems, and Computers (2019)",
+  },
+  {
+    num: 2,
+    href: "https://arxiv.org/abs/1701.01769",
+    title: "Associative Pattern Recognition in Macro-Molecular Self-Assembly",
+    authors: (
+      <>
+        <b>WZ</b>, David J. Schwab, and Arvind Murugan
+      </>
+    ),
+    venue: "J Stat Phys (2017) 167: 806",
+  },
+  {
+    num: 1,
+    href: "https://link.springer.com/article/10.1007/JHEP12(2015)179",
+    title: "A Holographic c-Theorem for Schrodinger Spacetimes",
+    authors: (
+      <>
+        James T. Liu* and <b>WZ*</b> (alphabetical order)
+      </>
+    ),
+    venue: "JHEP 1512 (2015) 179",
+  },
+];
+
 const Leadership = ({ heading, message, img, imageSize }) => {
   return (
     <Jumbotron
@@ -12,40 +155,22 @@ const Leadership = ({ heading, message, img, imageSize }) => {
       <h2 className="display-4 pb-5 text-center">{heading}</h2>
       <div className="row">
         <div className="col-md-5">
-          <p>
-          <b>[12]</b> <span style={{ color: 'red' }}> (new)</span> <a href="https://arxiv.org/abs/2602.13194" target="_blank">Semantic Chunking and the Entropy of Natural Language</a>, <br></br>
-          <b>&emsp; &ensp;WZ</b>, Doron Sivan, Tankut Can, Mikhail Katkov, Misha Tsodyks, <br></br>  
-          &emsp; &ensp; <i>arXiv:2602.13194 </i><br></br>
-          <b>[11]</b> <a href="https://journals.aps.org/prl/abstract/10.1103/g1cz-wk1l" target="_blank">Random Tree Model of Meaningful Memory</a>, <br></br>
-          <b>&emsp; &ensp;WZ</b>, Tankut Can, Antonis Georgiou, Ilya Shnayderman, Mikhail Katkov, &emsp; &ensp; Misha Tsodyks, <i>Physical Review Letters 134.23 (2025): 237402. </i><br></br>
-          <b>[10]</b> <a href="https://elifesciences.org/reviewed-preprints/109538" target="_blank">Synaptic Theory of Chunking in Working Memory</a>, <br></br>
-          <b>&emsp; &ensp;WZ</b>, Mikhail Katkov, Misha Tsodyks, <i>eLife 15 (2026). </i><br></br>
-          <b>[9]</b> <a href="https://arxiv.org/abs/2401.06300" target="_blank">Advantage of Quantum Neural Networks as Quantum </a><br></br>
-          &emsp; &ensp; <a href="https://arxiv.org/abs/2401.06300" target="_blank">Information Decoders</a>, <br></br>
-          <b>&emsp; &ensp;WZ</b>, Oles Shtanko, Ramis Movassagh, <i>arXiv:2401.06300 </i><br></br>    
-          <b>[8]</b> <a href="https://arxiv.org/abs/2206.08933" target="_blank">A Theory of Weight Distribution-constrained Learning</a>, <br></br>  
-          <b>&emsp; &ensp;WZ</b>, Ben Sorscher, Daniel D Lee, Haim Sompolinsky, <i>NeurIPS 2022 </i><br></br>    
-          <b>[7]</b> <a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.6.043041" target="_blank">Many-body Localized Hidden Generative Models</a>, <br></br>  
-          <b>&emsp; &ensp;WZ</b>, Xun Gao, Susanne Yelin, Khadijeh Najafi, <i>Physical Review Research &emsp; &ensp; 6.4 (2024): 043041. </i><br></br>    
-          <b>[6]</b> <a href="https://www.nature.com/articles/s41598-021-88311-7" target="_blank">Machine Learning Outperforms Thermodynamics in Measuring </a><br></br>  
-          &emsp; &ensp; <a href="https://www.nature.com/articles/s41598-021-88311-7" target="_blank">how well a Many-body System Learns a Drive</a>, <br></br>  
-          <b>&emsp; &ensp;WZ*</b>, Jacob M Gold*, Sarah Marzen, Jeremy L England, Nicole Yunger &emsp; &ensp; Halpern, <i>Scientific reports 11.1 (2021): 1-11</i><br></br>
-          <b>[5]</b> <a href="https://arxiv.org/abs/2004.03604" target="_blank">Learning about Learning by Many-body Systems</a>, <br></br>  
-          <b>&emsp; &ensp;WZ*</b>, Jacob M Gold*, Sarah Marzen, Jeremy L England, Nicole Yunger &emsp; &ensp; Halpern, <i>ICML workshop (2020)</i><br></br>
-          <b>[4]</b> <a href="https://direct.mit.edu/neco/article/32/6/1033/95586" target="_blank">Non-equilibrium Statistical Mechanics of Continuous Attractors</a>, <br></br>  
-          <b>&emsp; &ensp;WZ</b>, Zhiyue Lu, David J. Schwab†, and Arvind Murugan†, <i>Neural <br></br>
-          &emsp; &ensp; computation (2020) 32 (6) </i><br></br>    
-          <b>[3]</b> <a href="https://arxiv.org/abs/1912.05127" target="_blank">A Closer Look at Disentangling in beta-VAE</a>, <br></br>  
-          &emsp; &ensp; Harshvardhan Sikka*, <b>WZ*</b> (alphabetical order), Jun Yin, <br></br>  
-          &emsp; &ensp; Cengiz Pehlevan, <i>53rd Asilomar <br></br> 
-          &emsp; &ensp; Conference on Signals, Systems, and Computers (2019) </i><br></br>   
-          <b>[2]</b> <a href="https://arxiv.org/abs/1701.01769" target="_blank">Associative Pattern Recognition in Macro-Molecular Self-Assembly</a>, <br></br>  
-          <b>&emsp; &ensp;WZ</b>, David J. Schwab, and Arvind Murugan, <i>J Stat Phys (2017) 167: 806 </i><br></br>      
-          <b>[1]</b> <a href="https://link.springer.com/article/10.1007/JHEP12(2015)179" target="_blank">A Holographic c-Theorem for Schrodinger Spacetimes</a>, <br></br>  
-          &emsp; &ensp; James T. Liu* and <b>WZ*</b> (alphabetical order), <i>JHEP 1512 (2015) 179 </i><br></br>        
-          {/* <b>[1]</b> Decoding Imperfect Stabilizer Codes with Quantum Neural Networks, <br></br>  
-          <b>&emsp; &ensp;WZ</b>, Oles Shtanko, Ramis Movassagh, <i>to appear </i><br></br>          */}
-          </p>
+          {publications.map((pub) => (
+            <div className="publication-entry" key={pub.num}>
+              <span className="publication-num">
+                <b>[{pub.num}]</b>
+              </span>
+              <span className="publication-body">
+                {pub.isNew && <span style={{ color: "red" }}>(new) </span>}
+                <a href={pub.href} target="_blank" rel="noopener noreferrer">
+                  {pub.title}
+                </a>
+                <span className="publication-authors">
+                  {pub.authors}, <i>{pub.venue}</i>
+                </span>
+              </span>
+            </div>
+          ))}
         </div>
         <div className="col-md-7">
           <Carousel>
